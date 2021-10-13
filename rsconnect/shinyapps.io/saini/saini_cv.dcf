@@ -1,0 +1,12 @@
+name: saini_cv
+title: saini_cv
+username:
+account: saini
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4862511
+bundleId: 5134954
+url: https://saini.shinyapps.io/saini_cv/
+when: 1634138195.9424
+asMultiple: FALSE
+asStatic: FALSE
