@@ -1,0 +1,4 @@
+shinylive::export("C:/Users/saini/OneDrive/Documents/R Projects/portfolio", "portfolio-live")
+
+
+install.packages("WebAssembly",version="1.3.4")

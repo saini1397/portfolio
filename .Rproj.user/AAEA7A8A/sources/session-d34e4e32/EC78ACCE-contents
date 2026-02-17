@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<title>Deepak Saini</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#exp" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Experience</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#exp" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Deepak Saini.</h1>
+    <p>Principal Statistical Programmer</p>
+    <img style="padding:1px;border:thin solid black;" src="profile.jpg" alt="boy" class="w3-image" width="400" height="500">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Principal-level statistical programming lead with over 10 years of expertise in PK/PD analytics, Base/Advanced SAS, R and R-Shiny application development. Proven track record designing interactive dashboards for real-time decision support, leading global teams, and delivering regulatory-compliant ADaM/SDTM datasets for oncology and beyond. Skilled in workflow automation, talent mentorship, and strategic data visualization to accelerate regulatory submissions and clinical insights.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Base SAS</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
+    </div>
+    <p class="w3-wide">Advanced SAS & Macros</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
+    </div>
+    <p class="w3-wide">PK/PD (NCA and NONMEM</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">R Programming and R Shiny Dashboard</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">SQL</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:92%"></div>
+    </div>
+    <p class="w3-wide">UNIX</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">ADaM</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:98%"></div>
+    </div>
+    <p class="w3-wide">TLF (Table, Listings & Figures)</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">SDTM</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
+    </div>
+    <p class="w3-wide">Define.xml & Pinnacle 21</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">GitHub</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">DevOps and Agile</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <br>
+    
+    
+<form method="get" action="Deepak_Principal_Statistical_Programmer.pdf">
+    <button class="w3-button w3-light-grey w3-padding-large w3-section" action="www/Deepak_Clinical_SAS_Programmer.pdf">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+</form>    
+   
+   
+
+
+   
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="exp">
+    <h2 class="w3-text-light-grey">Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      
+
+      <div >
+        <h3 class="w3-padding-16 w3-text-light-grey">IQVIA, UK</h3>
+          <p >Associate Principal Statistical Programmer, May 2024 - Present</p>
+        <ul>
+          <li>Served as an EPTM study lead, coordinating cross-functional programming efforts, managing timelines and deliverables, and driving adherence to ICH GCP and internal SOPs.</li>
+          <li>Programmed key ADaM datasets like ADLB, ADQS, ADHOLTER, ADEG, ADVS, ADUC etc. Authored comprehensive ADaM specifications & SAS programming for ADPC & ADPP datasets, ensuring full alignment with CDISC ADaM IG v1.1+ and seamless handoff to downstream PK/PD analyses.</li>
+          <li>Led NCA and population PK analyses (ADPC, ADPP, POPPK, POPPKPD), generating 150+ TLFs for regulatory submissions under tight timelines.</li>
+          <li>Developed and validated Non-Compartmental Analysis (NCA) TLFs including tables, listings, and figures to deliver critical PK insights for clinical and regulatory teams.</li>
+          <li>Conducted detailed SDTM reviews for PC and PP domains, as well as key safety domains (AE, LB, CM etc.), identifying mapping discrepancies and ensuring 100% compliance with latest SDTM IG.</li>
+          <li>Spearheaded a SAS macro development initiative, designing reusable, parameter-driven macros that automated repetitive tasks, improved coding consistency, and accelerated ADaM datasets and TLF production.</li>
+          <li>Crafted a production-ready R Shiny dashboard for PK/PD reporting on CDISC-compliant datasets, enabling real-time visualization of time-series concentration plots, median profiles, and descriptive statistics.</li>
+          <li>Extensively worked on Pinnacle 21 validation and ADaM CRT package.</li>
+          </ul>
+        <h3 class="w3-padding-16 w3-text-light-grey" >GSK, Bengaluru, India</h3>
+        <p >Lead Statistical Programmer, Dec 2018 - May 2024</p>
+         <ul>
+         <li>Served as Study Lead for a portfolio of Phase I–III oncology trials—including solid tumor and hematologic (non‐solid) indications—overseeing end-to-end statistical programming deliverables (protocol review, SDTM review, ADaM programming, TLF generation) and coordinating cross-functional teams to ensure on-time, CDISC- and ICH-GCP-compliant submissions.</li>
+        <li>Generated key CDISC safety, PK and efficacy ADaM datasets for such as ADSL, ADRS, ADTR, ADTTE, ADDATES, ADAE, ADLB, ADEX, ADBIOMRK, ADPC, ADPP etc.</li>
+        <li>Worked on ADaM Oncology Efficacy endpoints - PFS, DOR, TTR, OS, DCR & BOR.</li>
+        <li>Applied various statistical methods, including Odds Ratio (OR), Relative Risk (RR), Absolute Risk Difference (ARD), Hazard ratio, Fisher Exact, Z-test, KM Quartiles etc.</li>
+        <li>Worked on various SAS graphical procedures like PROC SGPLOT, PROC SGPANEL and SAS GTL and generated various Box Plots, Line Plots, Scatter Plots, KM Survival Plots, and waterfall Plots.</li>
+        <li>Utilized SAS procedures such as PROC LOGISTIC, PROC LIFETEST, PROC MEANS, and PROC FREQ etc.</li>
+        <li>Worked on PK/PD reporting and generated key NCA TLFs. Created various PK Time Series Plots, PK Summary tables & Listings.</li>
+        <li>Created an R Shiny dashboard for the ADaM EX dataset using R-shiny package.</li>
+        <li>Created SAS-based tool to automate SDTM edit checks and output issue log in XLS.</li>
+        <li>As part of the Oncology Focus Group, I was involved in developing standard SAS macros and developed standard ADaM specifications as well.</li>
+        <li>Involved in mentoring New Joiners (Freshers and mid-experienced Programmers).</li>
+        <li>Worked on multiple CDISC study submissions like ISS, DSUR, DRB etc.</li>
+        <li>Worked on ADaM CRT package creation and Pinnacle validation.</li>
+
+      </ul>
+        <h3 class="w3-padding-16 w3-text-light-grey">TCS, Delhi, India</h3>
+         <p >SDTM Mapping Programmer, Dec 2017 - Dec 2018</p>
+        <ul>
+          <li>Worked as a Process Lead for Pfizer and was involved in leading SDTM deliverables.</li>
+        <li>Worked on Phase I - III Clinical trials involving PK & Safety as Primary endpoints.</li>
+        <li>Worked in various Therapeutic Areas like Oncology and Arthritis.</li>
+        <li>Developed and Validated CDISC SDTM domains such as Exposure (EX), Adverse Events (AE), Lab (LB), Vital Signs (VS), Oncology SDTMs (TU, TR and RS) etc.</li>
+        <li>Developed and validated CDISC SDTM domains for PK concentration (PC) and parameters (PP), mapping raw SMS2000 files into SDTM datasets.</li>
+        <li>Developed SDTM define and CRT package.</li>
+        <li>Merged raw PC data with SMS2000 TXT files received from the CPMS team.</li>
+        <li>Involved in developing various study specific SAS macros.</li>
+          </ul>
+        <h3 class="w3-padding-16 w3-text-light-grey">Accenture, Bengaluru, India</h3>
+          <p >SDTM Mapping Programmer, Aug 2015 - Dec 2017</p>
+        <ul>
+          <li>Worked as a SDTM Programmer in various TAs like Oncology, Vaccines etc.</li>
+          <li>Mapped various CDISC SDTMs such as Oncology (TU, TR & RS), Safety (AE, LB, EG),PK (PC & PP) by following CDISC SDTM IG.</li>
+          <li>Partnered with QC teams to validate SDTM domains using SAS programming.</li>
+          <li>Worked on blockbuster drug - Keytruda (Pembrolizumab).</li>
+          <li>Involved in SDTM Mapping Spec creation, aCRF Annotation, Pinnacle validation, programming and validation through PL/SQL programming. Worked on complex PL/SQL queries on the SQL Developer tool.</li>
+          <li>Worked on SDTM define, pinnacle 21 and CRT package.</li>
+          </ul>
+        
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Derby, UK</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +44 7721913105</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: saini1397@gmail.com</p>
+    </div><br>
+  
+
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    
+    <a class="fa fa-twitter w3-hover-opacity" href="https://twitter.com/"></a>
+    <a class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/deepak-saini-98776920b"></a>
+   
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
